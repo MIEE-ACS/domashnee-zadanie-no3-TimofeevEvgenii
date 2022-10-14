@@ -1,0 +1,17 @@
+﻿<Window x:Class="ДЗ_3_Timofeev_UTS_21.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ДЗ_3_Timofeev_UTS_21"
+        mc:Ignorable="d"
+        Title="Азбука Морзе С#" Height="450" Width="800">
+    <Grid Background="#FF286BB5">
+        <TextBox x:Name="tbInput" HorizontalAlignment="Center" Margin="0,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="760" Height="112" BorderBrush="#FF294CB5" Foreground="#FFFF1106" Background="#FF9BE5F3" FontSize="20"/>
+        <TextBox x:Name="tbOutput" HorizontalAlignment="Center" Margin="0,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="760" Height="126" RenderTransformOrigin="0.5,0.438" Foreground="#FFFF0505" Background="#FF9BE5F3" BorderBrush="#FF2146B5" SelectionTextBrush="#FF9BE5F3" FontSize="20"/>
+        <Button x:Name="btnTranslate" Content="Перевод" HorizontalAlignment="Center" VerticalAlignment="Center" Width="760" Height="47" Margin="0,361,0,0" FontFamily="Arial Black" FontSize="36" Background="#FF4BC4ED" Foreground="#FF2008C8" Click="btnTranslate_Click_1"/>
+        <Label Content="ВВОД:" HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top" Width="70" Background="#FF4BC4ED" Foreground="#FF2008C8" FontFamily="Arial Black" FontWeight="Bold" FontStyle="Italic" FontSize="16" Height="33"/>
+        <Label Content="ВЫВОД:" HorizontalAlignment="Left" Margin="20,163,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Arial Black" FontWeight="Bold" FontStyle="Italic" Height="36" Background="#FF4BC4ED" Foreground="#FF2008C8"/>
+
+    </Grid>
+</Window>
